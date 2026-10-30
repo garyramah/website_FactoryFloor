@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FactoryFloor.ai — The Factory Floor, Coordinated</title>
+<meta name="description" content="FactoryFloor.ai: the autonomous-factory thesis — skill-organized robotic cells, floor-coordinating software, and manufacturing as a service.">
+<style>
+  :root{
+    --bg:#11161b; --panel:#1a2129; --panel2:#222c36; --ink:#e8ecef;
+    --muted:#9aa7b2; --line:#2e3a45; --amber:#f5a623; --steel:#7fd4c1;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Helvetica Neue",Arial,sans-serif;line-height:1.6}
+  .wrap{max-width:900px;margin:0 auto;padding:0 24px 72px}
+  header{padding:72px 0 36px;border-bottom:1px solid var(--line)}
+  .eyebrow{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--amber)}
+  h1{font-size:clamp(42px,7vw,72px);line-height:1.02;margin:16px 0 10px;font-weight:700;letter-spacing:-.01em}
+  h1 span{color:var(--amber)}
+  .tagline{font-size:clamp(19px,3vw,26px);color:var(--muted);margin:0;max-width:640px}
+  h2{font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--steel);
+    margin:56px 0 16px;padding-top:28px;border-top:1px solid var(--line)}
+  p{font-size:18px;margin:0 0 16px;color:#cdd6dd}
+  p.lead{font-size:21px;color:var(--ink)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+  @media(max-width:640px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);padding:22px 24px}
+  .card h3{margin:0 0 8px;font-size:19px}
+  .card h3 span{color:var(--amber)}
+  .card p{font-size:16px;margin:0;color:var(--muted)}
+  .rule{border-left:3px solid var(--amber);padding:6px 0 6px 18px;margin:28px 0}
+  .rule p{margin:0;font-size:21px;color:var(--ink)}
+  ol{padding-left:20px;margin:0}
+  ol li{font-size:18px;margin-bottom:16px;color:#cdd6dd}
+  ol li b{color:var(--ink)}
+  .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+  .chip{border:1px solid var(--line);background:var(--panel);padding:8px 14px;
+    font-size:15px;color:#cdd6dd}
+  form{border:1px solid var(--line);background:var(--panel);padding:24px;margin-top:8px}
+  label{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+  input[type=email]{width:100%;padding:12px;margin:8px 0 14px;
+    border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:16px;font-family:inherit}
+  button{background:var(--amber);color:#11161b;border:0;padding:12px 22px;
+    font-size:15px;font-weight:700;font-family:inherit;cursor:pointer}
+  .note{font-size:14px;color:var(--muted);margin-top:12px}
+  footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:13px;color:var(--muted);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">Autonomous factories</div>
+    <h1>Factory<span>Floor</span>.ai</h1>
+    <p class="tagline">The factory floor, coordinated. Not a faster assembly line —
+    a floor that can be reprogrammed instead of retooled.</p>
+  </header>
+
+  <h2>The shift</h2>
+  <p class="lead">For a century, a factory was built around a product. The line was fixed,
+  the tooling was fixed, and changing what you made meant rebuilding what you had.
+  The autonomous factory inverts that: the floor is built around skills, and the
+  product is what changes.</p>
+  <p>Robotic cells organized by skill — cabling, fastening, precise placement —
+  rather than by product line. Floor-coordinating software that assigns work across
+  cells, watches production, and feeds what it learns back into the models.
+  When the product changes, the floor doesn't get rebuilt. It gets re-tasked.</p>
+  <div class="rule">
+    <p>Retooling is the old cost of change. Reprogramming is the new one — and it is orders of magnitude cheaper.</p>
+  </div>
+
+  <h2>How a floor like this works</h2>
+  <ol>
+    <li><b>Design in.</b> A customer brings a design, not a factory. No line to build, no tooling to buy before the first unit exists.</li>
+    <li><b>Cells assemble by skill.</b> Industrial robot arms, grouped by what they can do rather than what they are making, take on the work across products — one floor, many product lines.</li>
+    <li><b>Software coordinates.</b> One layer schedules the cells, tracks the floor, and connects production to the cloud. The floor is a system, not a collection of machines.</li>
+    <li><b>Production improves the models.</b> Every run generates data, and that data refines the next run. The factory gets better at making things by making things.</li>
+  </ol>
+
+  <h2>What it makes</h2>
+  <p>The fit is high-value, complex electro-mechanical products — the hardware
+  whose production capacity is most constrained, and that has most often been
+  sent overseas:</p>
+  <div class="chips">
+    <span class="chip">Drones</span>
+    <span class="chip">Autonomous vehicle subassemblies</span>
+    <span class="chip">Satellites</span>
+    <span class="chip">Wire harnesses</span>
+    <span class="chip">Underwater vehicles</span>
+    <span class="chip">Ground robots</span>
+    <span class="chip">Telecom &amp; data-center hardware</span>
+  </div>
+
+  <h2>The model</h2>
+  <p>Manufacturing as a service. The factory is owned and operated as a whole —
+  facilities, robotic systems, and software together — so a customer can go from
+  design to production in weeks instead of financing a line of their own. The
+  economics flip: flexibility becomes the product, and the factory's customers
+  buy outcomes, not floor space.</p>
+  <p>And the honest part of the thesis: autonomous does not mean unattended.
+  Human manufacturing technicians remain in the loop — their work trains and
+  refines the AI. Flexibility trades against peak efficiency, and ultra-fine
+  precision is still hard. The floor that admits that is the one worth trusting.</p>
+
+  <h2>Why now</h2>
+  <p>Flexible domestic manufacturing capacity for complex hardware is constrained,
+  and the gap is strategic as much as commercial. The companies that close it
+  will not be the ones that retrofit old lines fastest. They will be the ones
+  that rethink the floor from the ground up — cells by skill, software in the
+  middle, data compounding with every run.</p>
+
+  <h2>Talk to us</h2>
+  <p>If you build complex hardware and want a floor that changes as fast as
+  your designs do, start here.</p>
+  <form id="contact-form">
+    <label for="email">Request a conversation</label>
+    <input id="email" type="email" placeholder="you@example.com" aria-label="Email address" required>
+    <button type="submit">Request</button>
+    <p class="note">Submitting opens your mail app with a request addressed to hank@pym.ai. Nothing is stored on this page. This page presents a concept, not an operating factory.</p>
+  </form>
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var addr = document.getElementById('email').value.trim();
+      var subject = encodeURIComponent('FactoryFloor.ai conversation request');
+      var body = encodeURIComponent('Please contact me about FactoryFloor.ai.\n\nMy email: ' + addr);
+      window.location.href = 'mailto:hank@pym.ai?subject=' + subject + '&body=' + body;
+    });
+  </script>
+
+  <footer>
+    <span>FactoryFloor.ai — a concept page, not a product claim. No factory is operated from this page.</span>
+    <span>Part of <a href="https://agentics.ventures">Agentics Ventures</a></span>
+  </footer>
+
+</div>
+</body>
+</html>
